@@ -1,0 +1,164 @@
+
+/* hader size */
+.hed{
+  height: 10vh;
+  width: 98vw;
+  background-color: rgb(64, 63, 76);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-y:hidden ;
+  z-index: 50;
+  position:sticky;
+  top: 0px;
+  background-image: url(WhatsApp\ Image\ 2025-07-22\ at\ 19.32.43_2600d742.jpg);
+}
+/* manu bar */
+#bar{
+  font-size: xx-large;
+  position: relative;
+  left: 2vw; 
+  color: aliceblue;
+  cursor: pointer;
+}
+
+/* hader.manubar */
+#img{
+  height: 15vh;
+  width:25vw;
+  position: relative;
+  right: 20vw;
+}
+/* header btn */
+.btn{
+  height: 5vh;  
+  position: relative;
+  right: 3vh;
+  border: none;
+  background-color:transparent;       
+}
+#btn{
+  text-decoration: none;
+  color: aliceblue;
+}
+/* slid Menu */
+#slid-manu{
+  background-image: url(WhatsApp\ Image\ 2025-07-22\ at\ 19.32.43_2600d742.jpg);
+  background-color:rgba(231, 18, 18);
+  height: 100vh;
+  width: 20vw;
+  position: fixed;
+  left: -30vw;
+  z-index: 10; 
+  transition: 0.5s ease;
+}
+.slid-manu{
+  color: rgb(10, 7, 17);
+  text-decoration: none;  
+  position: relative;
+  padding: 4vh;
+  display: block;
+ text-align: center;
+ bottom: 1.5vh;
+ font-size:x-large;
+}
+.opt{
+  height: 10vh;
+  margin-top: 2vh;
+  box-shadow: inset 1vh 0vh 7vh rgb(19, 18, 18);
+  display: flex;
+  justify-content: center;  
+  border-radius: 10px 10px 0px 0px;
+}
+
+.glas{
+  height: 10vh;
+  width: 7px;
+  top: 8vh;
+  right:6vw;
+  animation: slide 5s linear infinite alternate;
+  position: relative;
+  
+}
+@keyframes slide {
+ from{
+  left:-7vw;
+}
+ to{
+  left: 65%;
+  
+ }
+}
+
+                  /* closemanu */
+
+#closmanu{
+  font-size: xx-large;
+  position: relative;
+  left: 12vw;
+  text-decoration: none;
+  color: rgb(11, 12, 14);
+}            
+                   
+                  /* close menu tap display anywear */
+
+#closmanuall {
+  background-color:transparent;
+  width: 100%;
+  height: 340vh;
+  position: sticky;
+  z-index: 10;
+  
+
+}         
+
+                     /* content */
+.fastimg{
+  box-shadow: inset 0vw 8vh 35vh 0.9vh blue;
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  position:absolute;
+  top: 20vh;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 60vh;
+ 
+}
+.secondimg{
+  box-shadow: inset 0vw 8vh 35vh 0.9vh blue;
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  position:absolute;
+  top: 110vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60vh;
+ 
+}
+.thardimg{
+  box-shadow: inset 0vw 8vh 35vh 0.9vh blue;
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  position: absolute;
+  top: 200vh;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 60vh;
+}
+.fourthimg{
+   box-shadow: inset 0vw 8vh 35vh 0.9vh blue;
+  height: 70vh;
+  width: 90%;
+  display: flex;
+  position: absolute;
+  top: 290vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60vh; 
+}
+                  
